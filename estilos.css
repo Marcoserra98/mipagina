@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: black url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+header{
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    background: rgba(119, 117, 117, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+header .menu a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+.productos{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background: rgba(119, 117, 117, 0.4);
+}
+
+.productos h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.productos .plantas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos .plantas img {
+    padding: 10px;
+    width: 200px;
+    opacity: .3;
+    
+}
+.productos .plantas img:hover{
+    opacity: 1;
+    border: solid white;
+}
+
+.Tips{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgba(119, 117, 117, 0.4);
+}
+
+.Tips h1{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.Tips p {
+    padding: 10px;
+}
+
+.video{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video h1{
+    margin-top: 20px;
+}
+
+.video iframe{
+    margin-top: 50px;
+    width: 70%;
+    border-radius: 20px;
+    border: solid 5px green;
+}
+
+footer{
+    width: 65%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgb(8, 8, 8, .8) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+footer a{
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: none;
+}
